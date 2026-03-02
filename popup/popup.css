@@ -459,6 +459,14 @@ body {
   color: #999;
 }
 
+.history-error {
+  font-size: 10px;
+  color: #f5222d;
+  word-break: break-word;
+  margin-top: 2px;
+  line-height: 1.4;
+}
+
 .history-actions {
   display: flex;
   gap: 4px;
@@ -645,6 +653,14 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.session-step.error-step {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  word-break: break-word;
+  color: #f5222d;
 }
 
 .session-email {

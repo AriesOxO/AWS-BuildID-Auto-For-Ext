@@ -171,11 +171,13 @@ function renderSessions(sessions) {
     if (session.status === 'completed') statusClass = 'success';
     else if (session.status === 'error') statusClass = 'error';
 
+    const stepClass = session.status === 'error' ? 'session-step error-step' : 'session-step';
+
     return `
       <div class="session-item">
         <span class="session-id">#${index + 1}</span>
         <span class="session-status ${statusClass}"></span>
-        <span class="session-step">${session.step || session.status}</span>
+        <span class="${stepClass}">${session.step || session.status}</span>
         <span class="session-email">${session.email || ''}</span>
       </div>
     `;
@@ -225,6 +227,7 @@ function renderHistory(history) {
       <div class="history-status ${statusClass}"></div>
       <div class="history-info">
         <div class="history-email">${item.email || '-'}${tokenBadge}</div>
+        ${!item.success && item.error ? `<div class="history-error">${item.error}</div>` : ''}
         <div class="history-time">${item.time || ''}</div>
       </div>
       <div class="history-actions">

@@ -60,7 +60,7 @@
 
 1️⃣ **克隆仓库**
 ```bash
-git clone https://github.com/Specia1z/AWS-BuildID-Auto-For-Ext.git
+git clone https://github.com/AriesOxO/AWS-BuildID-Auto-For-Ext.git
 cd AWS-BuildID-Auto-For-Ext
 ```
 
@@ -78,7 +78,7 @@ cd AWS-BuildID-Auto-For-Ext
 
 ### 方式二：安装打包文件
 
-1. 下载 [Releases](https://github.com/Specia1z/AWS-BuildID-Auto-For-Ext/releases) 中的 `extension.crx` 或 `extension.zip`
+1. 下载 [Releases](https://github.com/AriesOxO/AWS-BuildID-Auto-For-Ext/releases) 中的 `extension.crx` 或 `extension.zip`
 2. 解压后按照「方式一」的步骤 2-3 加载
 
 ---
@@ -289,6 +289,6 @@ graph TD
 
 **⭐ 如果这个项目对你有帮助，请给一个 Star！**
 
-Made with ❤️ by [Specia1z](https://github.com/Specia1z)
+Made with ❤️ by [AriesOxO](https://github.com/AriesOxO)
 
 </div>
